@@ -66,7 +66,7 @@ public:
 		this->task->set_watch_timeout(timeout);
 	}
 
-	void set_recv_timeout(int timeout)
+	void set_receive_timeout(int timeout)
 	{
 		this->task->set_receive_timeout(timeout);
 	}
